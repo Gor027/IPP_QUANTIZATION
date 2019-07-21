@@ -1,0 +1,3 @@
+/home/gor027/CLionProjects/IPP_SMALL_PROJECT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/gor027/CLionProjects/IPP_SMALL_PROJECT/cmake-build-debug/CMakeFiles/Quantization_IPP_.dir
+/home/gor027/CLionProjects/IPP_SMALL_PROJECT/cmake-build-debug/CMakeFiles/edit_cache.dir

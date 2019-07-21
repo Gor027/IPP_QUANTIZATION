@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Quantization_IPP_.dir/main.c.o CMakeFiles/Quantization_IPP_.dir/Particle/particle.c.o CMakeFiles/Quantization_IPP_.dir/Trie/trie.c.o CMakeFiles/Quantization_IPP_.dir/UnionFind/unionFind.c.o CMakeFiles/Quantization_IPP_.dir/Commands/commands.c.o  -o Quantization_IPP_ 
