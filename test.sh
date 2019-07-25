@@ -31,7 +31,7 @@ for f in ./*.in; do
   expect_stderr="${test}.err"
   expect_stdout="${test}.out"
   printf "Running Test ${test} ... "
-  cat ${f} | valgrind -q --leak-check=full --show-leak-kinds=all --errors-for-leak-kinds=all ../${prog} 2> ../temperr 1> ../tempout
+  cat ${f} | valgrind -q --error-exitcode=15 --leak-check=full --show-leak-kinds=all --errors-for-leak-kinds=all ../${prog} 2> ../temperr 1> ../tempout
   if diff "../tempout" ${expect_stdout} && diff "../temperr" ${expect_stderr}; then
   	  echo "PASSED"
   else

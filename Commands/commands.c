@@ -337,6 +337,7 @@ void execCommand(Particle *particle) {
 
                 if (whiteChar == EOF) {
                     fprintf(stderr, "ERROR\n");
+                    free(command);
                     return;
                 }
 
